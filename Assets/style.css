@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+.top-header {
+    text-align:left;
+    padding: 60px;
+    background-color: #070331;
+}
+
+.color-white {
+    color: aliceblue;
+}
+
+.color-lightblue {
+    color: rgb(24, 146, 150);
+}
+
+nav {
+  display: flex;
+  background-color: #070331;
+}
+
+nav a {
+  color: rgb(24, 146, 150);
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+aside {
+  flex: 1;
+  background-color: #b9c6ae;
+  padding: 20px;
+}
+
+section {
+  flex: 3;
+  background-color: #fff;
+  padding: 20px;
+}
