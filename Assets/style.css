@@ -24,6 +24,7 @@ body {
 nav {
   display: flex;
   background-color: #070331;
+  justify-content: flex-end;
 }
 
 nav a {
