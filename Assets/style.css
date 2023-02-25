@@ -9,16 +9,20 @@ body {
 
 .top-header {
     text-align:left;
-    padding: 60px;
+    padding: 20px;
+    padding-bottom: 0px;
     background-color: #070331;
 }
 
-.color-white {
-    color: aliceblue;
+.h4-class {
+    color: rgb(136, 167, 194);
 }
 
-.color-lightblue {
+.h1-class {
     color: rgb(24, 146, 150);
+    padding: 10px 0px;
+    font-weight: bolder;
+    font-size: 40px;
 }
 
 nav {
@@ -29,9 +33,10 @@ nav {
 
 nav a {
   color: rgb(24, 146, 150);
-  padding: 14px 20px;
+  padding: 8px 20px;
   text-decoration: none;
   text-align: center;
+  font-weight: bolder;
 }
 
 aside {
