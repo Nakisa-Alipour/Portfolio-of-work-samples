@@ -39,14 +39,19 @@ nav a {
   font-weight: bolder;
 }
 
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 aside {
   flex: 1;
-  background-color: #b9c6ae;
+  background-color: #1a0f96;
   padding: 20px;
 }
 
 section {
-  flex: 3;
+  flex: 9;
   background-color: #fff;
   padding: 20px;
 }
