@@ -57,7 +57,7 @@ main {
 aside {
   flex: 1;
   background-color: #1a0f96;
-  padding: 20px;
+  padding: 10px 10px 20px 20px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -67,7 +67,6 @@ aside {
 
 section {
   flex: 9;
-  padding: 20px;
   color: aliceblue;
   display: flex;
   flex-direction: column;
@@ -79,6 +78,14 @@ section {
     color: rgb(136, 167, 194)
 }
 
+article p {
+  margin: 10px
+}
+
+article {
+  padding: 20px;
+}
+
 .large-image {
   flex: 2 0 200px;
   padding: 2%;
@@ -87,12 +94,20 @@ section {
   width: 100%;
 }
 
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .small-image {
   flex: 1 0 200px;
   padding: 2%;
   border: 2px solid rgb(24, 146, 150);
   border-radius: 20px;
-  width: 49%;
   height: 200px;
-  
+  min-width: 25%;
 }
+
+
