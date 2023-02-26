@@ -44,10 +44,14 @@ nav a {
   padding: 8px 20px;
   text-decoration: none;
   text-align: center;
-  font-weight: bolder;
+  font-weight: bold;
   margin-top: -50px;
 }
 
+Nav a:hover {
+  color:aqua;
+  font-weight: bolder;
+}
 
 
 main {
@@ -65,6 +69,28 @@ aside {
   flex-direction: column;
   justify-content: flex-end;
   flex: 0 0 48px;
+}
+
+.image-container {
+  position: relative;
+  margin-bottom: 20;
+}
+
+.info-box {
+  display:none;
+  width: auto;
+  background-color: aqua;
+  color: #1a0f96;
+  text-align: center;
+  border-radius: 5px;
+  padding: 2px;
+  position:absolute
+  z-index: 1;
+  font-size: 12px;
+}
+
+.image-container:hover .info-box {
+  display: block;
 }
 
 section {
