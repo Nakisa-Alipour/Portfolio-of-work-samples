@@ -80,7 +80,7 @@ section {
 }
 
 .large-image {
-  flex: 2 1 200px;
+  flex: 2 0 200px;
   padding: 2%;
   border: 2px solid rgb(24, 146, 150);
   border-radius: 20px;
@@ -88,9 +88,11 @@ section {
 }
 
 .small-image {
-  flex: 1 1 200px;
+  flex: 1 0 200px;
   padding: 2%;
   border: 2px solid rgb(24, 146, 150);
   border-radius: 20px;
-  width: 50%;
+  width: 49%;
+  height: 200px;
+  
 }
