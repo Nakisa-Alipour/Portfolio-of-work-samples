@@ -127,8 +127,9 @@ article {
 .images {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
+  margin-top: 10px;
 }
 
 .small-image {
@@ -138,6 +139,11 @@ article {
   border-radius: 20px;
   height: 200px;
   min-width: 25%;
-  margin: 2%;
+  margin-top: 20px;
 }
 
+figcaption {
+  color: rgb(211, 211, 75);
+  font-weight: bold;
+  text-align: center;
+  }
