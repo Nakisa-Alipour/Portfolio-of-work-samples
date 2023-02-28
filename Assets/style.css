@@ -9,10 +9,18 @@ body {
 }
 
 .top-header {
-    text-align:left;
+    display: flex;
+    flex-wrap: wrap;
     padding: 20px;
     padding-bottom: 0px;
     background-color: #070331;
+}
+
+#intro {
+  flex: 1;
+  flex-direction: column;
+  flex-wrap: wrap;
+
 }
 
 .h4-class {
@@ -26,26 +34,27 @@ body {
     font-size: 40px;
 }
 
-.avatar {
+#avatar {
+    flex: 1;
     display:flex;
     align-items: center; 
     justify-content: center;
-    margin-top: -100px;
+    priority: 2;
 }
 
-nav {
+.navigation {
+  flex: 1;
   display: flex;
+  flex-wrap: wrap;
   background-color: #070331;
   justify-content: flex-end;
 }
 
-nav a {
+.navigation a {
   color: rgb(24, 146, 150);
-  padding: 8px 20px;
+  padding: 10% 5%;
   text-decoration: none;
-  text-align: center;
   font-weight: bold;
-  margin-top: -50px;
 }
 
 Nav a:hover {
@@ -148,8 +157,22 @@ figcaption {
   text-align: center;
   }
 
-@media (max-width: 982px) {
-  .avatar {
-      display: none;
+
+@media (max-width: 1235px) {
+  .navigation {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      text-align: center;
+  }
+}
+
+@media (max-width: 488px) {
+  aside {
+    width: 100%;
+    flex:auto;
+    flex-direction: row;
+    justify-content: center;
   }
 }
