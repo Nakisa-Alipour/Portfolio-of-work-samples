@@ -148,13 +148,7 @@ li {
 ul {
   padding-left: 20px;
 }
-.large-image {
-  flex: 2 0 200px;
-  padding: 2%;
-  border: 2px solid rgb(24, 146, 150);
-  border-radius: 20px;
-  width: 100%;
-}
+
 
 .images {
   display: flex;
@@ -194,10 +188,13 @@ form {
       justify-content: space-between;
       text-align: center;
   }
+  section {
+    width: 80%;
+  }
 }
 
 @media (max-width: 488px) {
-  aside {
+  footer {
     width: 100%;
     flex:auto;
     flex-direction: row;
